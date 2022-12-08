@@ -17,19 +17,20 @@ const Rectangle2 = () =>{
             <img src={persona3}/>
         </div>
         <div className="col-span-1 bg-green h-full">
-            <h1 className='text-3xl font-bold mt-[30px] text-white'>Un esprit sain dans un corps sain</h1>
-            <div className='w-[400px] ml-[120px] mt-[30px] text-left text-white'>
+            <h1 className='text-5xl font-bold mt-[30px] text-white '>Un esprit sain dans un corps sain</h1>
+            <div className='w-[500px] ml-[65px] mt-[20px] text-left text-2xl text-white'>
                 {text}
             </div>
             <div>
-                <button className='bg-brown w-[150px] h-[40px] mt-[30px] text-white rounded-md text-xl' onClick={e=>OnChange2()}>En savoir plus</button>
+                <button className='bg-brown w-[200px] h-[50px] mt-[30px] text-white rounded-md text-2xl' onClick={e=>OnChange2()}>En savoir plus</button>
             </div>
+
         </div>
         <div className="col-span-1 bg-green h-full rounded-r-[30px]">
 
         </div>
-        {clic2 && <div className='absolute top-[220px] left-[600px] w-[500px] h-[150px] rounded-xl bg-dark-grey' >
-            <h1 className='text-black text-lg mt-[20px]'>S'inscrire a la newletter</h1>
+        {clic2 && <div className='absolute top-[250px] left-[600px] w-[500px] h-[150px] rounded-xl bg-dark-grey' >
+            <h1 className='text-black text-lg mt-[20px]'>S'inscrire a la newsletter</h1>
             <input className='w-[300px] mt-[10px]' placeholder='Votre mail'/>
             <div className='grid grid-col-2'>
                 <di className="col-start-2 mt-[15px] ">

@@ -10,7 +10,7 @@ const Rectangle = (titre) =>{
         setClic(false);
     }
     const text = "Son corps idéal : elle voudrait prendre soin de sa peau facilement, et trouver une rutine skin care qui correspond à son type de peau sans passer des mois à contacter un spécialiste."
-    return (<div className="relative w-full h-[400px] grid grid-cols-rectangle  mt-[150px] " onMouseLeave={e=>OnLeave()} >
+    return (<div className="relative w-full h-[400px] grid grid-cols-rectangle  mt-[120px] " onMouseLeave={e=>OnLeave()} >
         <div className="col-span-1 bg-red h-full">
 
         </div>
@@ -18,19 +18,19 @@ const Rectangle = (titre) =>{
             <img src={persona1}/>
         </div>
         <div className="col-span-1 bg-red h-full">
-            <h2 className='text-3xl font-bold mt-[30px] text-white'>Un esprit sain dans un corps sain</h2>
-            <div className='w-[400px] ml-[120px] mt-[30px] text-left text-white '>
+            <h2 className='text-5xl font-bold mt-[30px] text-white'>Un esprit sain dans un corps sain</h2>
+            <div className='w-[500px] ml-[65px] mt-[30px] text-left text-2xl text-white '>
                 {text}
             </div>
             <div>
-                <button className='bg-brown w-[150px] h-[40px] mt-[30px] text-white rounded-md text-xl' onClick={e=>OnChange()}>En savoir plus</button>
+                <button className='bg-brown w-[200px] h-[50px] mt-[30px] text-white rounded-md text-2xl' onClick={e=>OnChange()}>En savoir plus</button>
             </div>
         </div>
         <div className="col-span-1 bg-red h-full rounded-r-[30px]">
 
         </div>
-        {clic && <div className='absolute top-[230px] left-[600px] w-[500px] h-[150px] rounded-xl bg-dark-grey' >
-            <h1 className='text-black text-lg mt-[20px]'>S'inscrire a la newletter</h1>
+        {clic && <div className='absolute top-[270px] left-[600px] w-[500px] h-[150px] rounded-xl bg-dark-grey' >
+            <h1 className='text-black text-lg mt-[20px]'>S'inscrire a la newsletter</h1>
             <input className='w-[300px] mt-[10px]' placeholder='Votre mail'/>
             <div className='grid grid-col-2'>
                 <di className="col-start-2 mt-[15px] ">

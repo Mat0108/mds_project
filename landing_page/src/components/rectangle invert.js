@@ -15,11 +15,11 @@ const Rectangleinvert = () =>{
 
         </div>
         <div className="col-span-1 bg-brown h-full ">
-            <h1 className='text-3xl font-bold mt-[30px] text-white'>Confiance en toi à tout moment.</h1>
-            <div className='w-[400px] ml-[120px] mt-[30px] text-left text-xl text-white '>{text}</div>
+            <h1 className='text-5xl font-bold mt-[30px] text-white'>Confiance en toi à tout moment.</h1>
+            <div className='w-[500px] ml-[65px] mt-[30px] text-left text-2xl text-white '>{text}</div>
             <div>
-                <button className='bg-red w-[150px] h-[40px] mt-[30px] text-xl text-white rounded-md' onClick={e=>OnChange3()}>En savoir plus</button>
-            </div>
+                <button className='bg-red w-[200px] h-[50px] mt-[30px] text-2xl text-white rounded-md' onClick={e=>OnChange3()}>En savoir plus</button>
+            </div>            
         </div>
         <div className="col-span-1 bg-brown h-full">
             <img src={persona2}/>
@@ -29,7 +29,7 @@ const Rectangleinvert = () =>{
 
         </div>
         {clic3 && <div className='absolute top-[280px] left-[550px] w-[500px] h-[150px] rounded-xl bg-dark-grey'>
-            <h1 className='text-black text-lg mt-[20px]'>S'inscrire a la newletter</h1>
+            <h1 className='text-black text-lg mt-[20px]'>S'inscrire a la newsletter</h1>
             <input className='w-[300px] mt-[10px]' placeholder='Votre mail'/>
             <div className='grid grid-col-2'>
                 <di className="col-start-2 mt-[15px] ">
